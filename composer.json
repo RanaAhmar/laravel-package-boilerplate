@@ -1,0 +1,40 @@
+{
+    "name": "stackaura/laravel-package-boilerplate",
+    "description": "The ultimate starter for building and publishing professional Laravel packages.",
+    "keywords": [
+        "laravel",
+        "package",
+        "boilerplate",
+        "starter-kit",
+        "stackaura"
+    ],
+    "homepage": "https://github.com/AhmarHussain/laravel-package-boilerplate",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahmar Hussain",
+            "email": "m.ahmarhussain@gmail.com",
+            "homepage": "https://www.stackaura.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "illuminate/support": "^10.0|^11.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^8.0|^9.0",
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Stackaura\\Skeleton\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Stackaura\\Skeleton\\SkeletonServiceProvider"
+            ]
+        }
+    }
+}
